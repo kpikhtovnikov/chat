@@ -1,11 +1,7 @@
 ## MANUAL
 
-### `yarn install`
+### 1.`yarn install`
 
-run Backend:
+### 2.`yarn server`
 
-### `yarn server`
-
-run Frontend:
-
-### `yarn client`
+### 3.`yarn client`
