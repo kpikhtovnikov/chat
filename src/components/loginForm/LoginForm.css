@@ -1,0 +1,68 @@
+.main-page{
+    background-color: rgb(14, 126, 230);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-page {
+    border: 3px solid rgb(17, 4, 92);
+    background-color: rgb(253, 254, 255);
+    border-radius: 15px;
+    height: 200px;
+    width: 500px;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.login-page-header {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: rgb(016, 030, 031);
+}
+
+.login-page-form {
+    margin-left: 20px;
+}
+
+.login-page-form-input {
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid rgb(21, 49, 175);
+    width: 90%;
+}
+
+.login-page-form-input[type = text] {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.login-page-form-input:focus {
+    border: 3px solid rgb(22, 25, 185);
+    outline: none;
+}
+
+.login-page-form-button {
+    display: block;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: rgb(19, 34, 170);
+    border: 3px solid rgb(11, 6, 82);
+    border-radius: 10px;
+    color: rgb(253, 254, 255);
+    position: relative;
+    left: 70%;
+    margin-left: 35px;
+}
+
+.login-page-form-button:hover {
+    background-color: rgb(18, 32, 161);
+}

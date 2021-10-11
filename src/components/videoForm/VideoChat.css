@@ -1,0 +1,30 @@
+.video-chat-block-form button {
+    background-color: rgb(145, 155, 157);
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.video-chat-block-form button:hover {
+    background-color: rgb(174, 177, 177);
+}
+
+.video-chat-block-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.video-chat-block {
+    min-width: 80%;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 3px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 3px solid rgb(162 183 205);
+    background-color: rgb(253, 254, 255);
+}

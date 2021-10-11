@@ -1,0 +1,25 @@
+.container {
+    max-width: 1170px;
+    margin: auto;
+  }
+.main-section{
+    background-color: rgb(216 221 225);
+}
+
+.video-page .messages-window, .video-page .chat-window-form{
+    margin-right: 20px;
+}
+.video-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(216 221 225);
+}
+
+@media (max-width:1100px) {
+    .video-page{
+        flex-direction: column-reverse;
+        height: 0%;
+    }
+}

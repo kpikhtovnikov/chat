@@ -1,0 +1,21 @@
+.user-chat {
+    width: fit-content;
+    padding: 5px;
+    max-width: 100%;
+    min-width: 20%;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgba(145, 155, 157, 50);
+    color: rgb(253, 254, 255);
+    font-weight: 500;
+    font-size: 16px;
+    margin: 5px;
+
+}
+
+.user-chat-name {
+    margin: 0 auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.video-chat-user video {
+    width: 250px;
+    max-height: 500px;
+    padding: 20px;
+}
+
+.video-chat-block-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 500wh;
+    margin-left: 15px;
+    position: relative;
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+@media (max-width: 600px) {
+    .video-chat-block-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-height: 500wh;
+        margin-left: 15px;
+        position: relative;
+        margin-top: 20px;
+    }
+    
+}

@@ -1,0 +1,45 @@
+.message-block {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    max-width: 500px;
+}
+
+.message-block-message-body {
+    border-radius: 10px;
+    border: 3px solid rgb(159 203 160);
+    background-color: rgb(198 215 194);
+    margin-top: 5px;
+    max-width: 500px;
+    width: fit-content;
+}
+
+.video-page .message-block-message-body {
+    max-width: 300px;
+}
+
+.video-page .message-block {
+    max-width: 300px;
+    overflow-x: hidden;
+}
+
+.message-block_name {
+    font-size: 16px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.message-block-message-body-text {
+    margin:0 10px;
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
+.message-block-message-body-text #text{
+    word-wrap: break-word;
+}
+
+.message-block-message-body-time {
+    font-weight: 300;
+    font-size: 12px;
+}
